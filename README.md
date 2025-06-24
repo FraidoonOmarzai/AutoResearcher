@@ -18,6 +18,39 @@ Multi-agent system that takes a high-level research topic (e.g., “AI in Health
 -----
 
 
+```
+                     ┌────────────────────┐
+                     │   User Interface   │
+                     │   (Streamlit App)  │
+                     └────────┬───────────┘
+                              │
+                  ┌───────────▼────────────┐
+                  │      LangGraph         │
+                  │ (Task & Agent Routing) │
+                  └──────────┬─────────────┘
+                             │
+      ┌──────────────────────┼────────────────────────┐
+      ▼                      ▼                        ▼
+┌──────────────┐     ┌─────────────┐           ┌─────────────┐
+│ Researcher   │     │ Summarizer  │           │  Designer    │
+│   Agent      │     │   Agent     │           │   Agent      │
+│ (arXiv API + │     │ (LLM-based  │           │ (Generates   │
+│  scraping)   │     │  summarizer)│           │  slides/text)│
+└──────┬───────┘     └──────┬──────┘           └──────┬───────┘
+       │                   │                          │
+       ▼                   ▼                          ▼
+ ┌──────────────┐   ┌─────────────┐           ┌──────────────┐
+ │ Vector Store │   │ Summaries DB│           │ Output Slides│
+ │ (FAISS/Chroma)│  │             │           │ (Markdown/PDF)│
+ └──────────────┘   └─────────────┘           └──────────────┘
+                             │
+                             ▼
+                      ┌────────────┐
+                      │  QA Agent  │
+                      │ (Gen FAQs) │
+                      └────────────┘
+```
+
 
 
 ```bash
