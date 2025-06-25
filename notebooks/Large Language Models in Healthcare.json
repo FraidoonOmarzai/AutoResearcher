@@ -1,0 +1,39 @@
+[
+    {
+        "title": "Aligning Large Language Models with Healthcare Stakeholders: A Pathway to Trustworthy AI Integration",
+        "authors": [
+            "Kexin Ding",
+            "Mu Zhou",
+            "Akshay Chaudhari",
+            "Shaoting Zhang",
+            "Dimitris N. Metaxas"
+        ],
+        "summary": "The wide exploration of large language models (LLMs) raises the awareness of\nalignment between healthcare stakeholder preferences and model outputs. This\nalignment becomes a crucial foundation to empower the healthcare workflow\neffectively, safely, and responsibly. Yet the varying behaviors of LLMs may not\nalways match with healthcare stakeholders' knowledge, demands, and values. To\nenable a human-AI alignment, healthcare stakeholders will need to perform\nessential roles in guiding and enhancing the performance of LLMs. Human\nprofessionals must participate in the entire life cycle of adopting LLM in\nhealthcare, including training data curation, model training, and inference. In\nthis review, we discuss the approaches, tools, and applications of alignments\nbetween healthcare stakeholders and LLMs. We demonstrate that LLMs can better\nfollow human values by properly enhancing healthcare knowledge integration,\ntask understanding, and human guidance. We provide outlooks on enhancing the\nalignment between humans and LLMs to build trustworthy real-world healthcare\napplications.",
+        "url": "http://arxiv.org/abs/2505.02848v1",
+        "published": "2025-05-02",
+        "summary_bullets": "- The use of large language models (LLMs) in healthcare requires alignment with the preferences, knowledge, and values of healthcare stakeholders to ensure effective, safe, and responsible workflows.\n- Healthcare professionals need to be involved in all stages of LLM adoption, including data curation, model training, and inference, to ensure human-AI alignment.\n- The review discusses methods to improve alignment between healthcare stakeholders and LLMs, emphasizing the need for better integration of healthcare knowledge, task understanding, and human guidance to build trustworthy healthcare applications."
+    },
+    {
+        "title": "An Analysis on Large Language Models in Healthcare: A Case Study of BioBERT",
+        "authors": [
+            "Shyni Sharaf",
+            "V. S. Anoop"
+        ],
+        "summary": "This paper conducts a comprehensive investigation into applying large\nlanguage models, particularly on BioBERT, in healthcare. It begins with\nthoroughly examining previous natural language processing (NLP) approaches in\nhealthcare, shedding light on the limitations and challenges these methods\nface. Following that, this research explores the path that led to the\nincorporation of BioBERT into healthcare applications, highlighting its\nsuitability for addressing the specific requirements of tasks related to\nbiomedical text mining. The analysis outlines a systematic methodology for\nfine-tuning BioBERT to meet the unique needs of the healthcare domain. This\napproach includes various components, including the gathering of data from a\nwide range of healthcare sources, data annotation for tasks like identifying\nmedical entities and categorizing them, and the application of specialized\npreprocessing techniques tailored to handle the complexities found in\nbiomedical texts. Additionally, the paper covers aspects related to model\nevaluation, with a focus on healthcare benchmarks and functions like processing\nof natural language in biomedical, question-answering, clinical document\nclassification, and medical entity recognition. It explores techniques to\nimprove the model's interpretability and validates its performance compared to\nexisting healthcare-focused language models. The paper thoroughly examines\nethical considerations, particularly patient privacy and data security. It\nhighlights the benefits of incorporating BioBERT into healthcare contexts,\nincluding enhanced clinical decision support and more efficient information\nretrieval. Nevertheless, it acknowledges the impediments and complexities of\nthis integration, encompassing concerns regarding data privacy, transparency,\nresource-intensive requirements, and the necessity for model customization to\nalign with diverse healthcare domains.",
+        "url": "http://arxiv.org/abs/2310.07282v2",
+        "published": "2023-10-11",
+        "summary_bullets": "- The paper investigates the application of large language models, specifically BioBERT, in healthcare, discussing its suitability for tasks related to biomedical text mining and outlining a systematic methodology for fine-tuning it to meet healthcare-specific needs. This includes data gathering, annotation, and specialized preprocessing techniques.\n- The research also covers model evaluation, focusing on healthcare benchmarks and functions like processing natural language in biomedical, question-answering, clinical document classification, and medical entity recognition. It also explores ways to improve the model's interpretability and compares its performance with existing healthcare-focused language models.\n- The paper highlights the benefits of incorporating BioBERT into healthcare, such as improved clinical decision support and efficient information retrieval, but also acknowledges challenges such as data privacy concerns, resource-intensive requirements, and the need for model customization to suit diverse healthcare domains."
+    },
+    {
+        "title": "The Role of Language Models in Modern Healthcare: A Comprehensive Review",
+        "authors": [
+            "Amna Khalid",
+            "Ayma Khalid",
+            "Umar Khalid"
+        ],
+        "summary": "The application of large language models (LLMs) in healthcare has gained\nsignificant attention due to their ability to process complex medical data and\nprovide insights for clinical decision-making. These models have demonstrated\nsubstantial capabilities in understanding and generating natural language,\nwhich is crucial for medical documentation, diagnostics, and patient\ninteraction. This review examines the trajectory of language models from their\nearly stages to the current state-of-the-art LLMs, highlighting their strengths\nin healthcare applications and discussing challenges such as data privacy,\nbias, and ethical considerations. The potential of LLMs to enhance healthcare\ndelivery is explored, alongside the necessary steps to ensure their ethical and\neffective integration into medical practice.",
+        "url": "http://arxiv.org/abs/2409.16860v1",
+        "published": "2024-09-25",
+        "summary_bullets": "- Large language models (LLMs) are gaining prominence in healthcare due to their ability to process complex medical data and aid in clinical decision-making, particularly in areas like medical documentation, diagnostics, and patient interaction.\n- The review traces the evolution of these language models, emphasizing their strengths in healthcare applications, while also addressing challenges such as data privacy, bias, and ethical considerations.\n- The potential of LLMs to improve healthcare delivery is discussed, along with the necessary steps to ensure their ethical and effective integration into medical practice."
+    }
+]
