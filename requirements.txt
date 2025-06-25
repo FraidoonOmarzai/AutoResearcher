@@ -9,3 +9,4 @@ chromadb
 langgraph 
 python-dotenv
 streamlit   
+fpdf
